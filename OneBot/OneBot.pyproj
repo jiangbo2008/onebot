@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d8922153-e5cb-4e67-93cc-e90fa4be428a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OneBot.py</StartupFile>
+    <StartupFile>CmdLoop.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="CmdLoop.py" />
     <Compile Include="OneBot.py" />
+    <Compile Include="wxbot.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
